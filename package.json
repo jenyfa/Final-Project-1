@@ -1,0 +1,22 @@
+{
+  "name": "final-project",
+  "version": "1.0.0",
+  "description": "A node.js Rest API or US states data using Express and MongoDB",
+  "main": "ExpressServer.js",
+  "scripts": {
+    "start": "node ExpressServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jenn",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.1.0",
+    "nodemon": "^2.0.22",
+    "uuid": "^9.0.0"
+  }
+}
